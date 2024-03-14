@@ -10,6 +10,7 @@ import heapq
 class KthLargest:
 
     # O(n log n)
+    # Each of the n elements is processed once. However, heap operations take O(log⁡ k) time, leading to an overall complexity of O(n log ⁡k).
     def __init__(self, k: int, nums: List[int]):
         self.k = k
         self.minHeap = nums
