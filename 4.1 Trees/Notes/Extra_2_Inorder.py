@@ -31,3 +31,15 @@ if __name__ == "__main__":
     # Function call
     print("Inorder traversal of binary tree is:")
     printInorder(root)
+
+    print()
+
+    root = Node(3)
+    root.left = Node(9)
+    root.right = Node(20)
+    root.right.left = Node(15)
+    root.right.right = Node(7)
+
+    # Function call
+    print("Inorder traversal of binary tree is:")
+    printInorder(root)
