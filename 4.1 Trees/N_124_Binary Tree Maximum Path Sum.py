@@ -1,5 +1,7 @@
 """
 References: https://www.youtube.com/watch?v=Hr5cWUld4vU
+
+DFS + DP (bottom up approach to find max sum in left and right subtree)
 """
 
 from typing import Optional, List
