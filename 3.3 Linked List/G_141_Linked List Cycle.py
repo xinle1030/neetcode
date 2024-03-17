@@ -12,6 +12,8 @@ Space Complexity: O(1)
 why this algo works: https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/
 
 Similar to Leetcode 142_LinkedList Cycle II
+
+References: https://youtu.be/gBTe7lFR3vc?si=BuD7JOQotMOZ8F_X
 """
 
 from typing import Optional
