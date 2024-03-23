@@ -40,6 +40,3 @@ intervals = [
     Interval(15, 20)
 ]
 print(mySol.minMeetingRooms(intervals))
-
-0, 5, 15
-10, 20, 30
