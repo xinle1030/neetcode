@@ -1,5 +1,8 @@
 """
 References: https://www.youtube.com/watch?v=I7j0F7AHpb8
+
+O(2 * n), n = len(prices) ; 2 because at each step we have two decisions to make: either buy or sell
+ => O(n)
 """
 
 from typing import List
