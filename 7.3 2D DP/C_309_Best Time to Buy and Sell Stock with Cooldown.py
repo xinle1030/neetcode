@@ -1,3 +1,7 @@
+"""
+References: https://www.youtube.com/watch?v=I7j0F7AHpb8
+"""
+
 from typing import List
 
 class Solution:
