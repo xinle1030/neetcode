@@ -18,7 +18,7 @@ class Solution:
         
         for i in range(len(word1) - 1, -1, -1):
             for j in range(len(word2) - 1, -1, -1):
-                # if same character, move pointer
+                # if same character, move both pointers
                 if word1[i] == word2[j]:
                     dp[i][j] = dp[i+1][j+1]
                 # add 1 for current operation
