@@ -14,7 +14,7 @@ class Solution:
         ans = []
 
         for i in range(len(my_nums)):
-            # elements are sorted in descending order, no more smaller elements behind to reduce to 0
+            # since elements are sorted in ascending order, no more smaller elements behind to reduce to 0
             if my_nums[i] > 0:
                 break
 
