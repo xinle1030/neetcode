@@ -14,7 +14,7 @@ class Solution:
 
         for n in nums:
 
-            # keep it as one and skip
+            # keep 0 as one and skip
             if n == 0:
                 currMin, currMax = 1, 1
                 continue
