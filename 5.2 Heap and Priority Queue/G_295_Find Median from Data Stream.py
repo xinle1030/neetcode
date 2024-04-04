@@ -6,7 +6,7 @@ Use 2 heaps (small heap [max heap], large heap [min heap])
 - get min/max : O(1)
 
 Whenever push or remove from small heap, multiple the value by -1
-Because to implement max heap, all elements need to be multiplied by 1 cuz python only implement min heap
+Because to implement max heap, all elements need to be multiplied by -1 cuz python only implement min heap
 """
 
 import heapq
